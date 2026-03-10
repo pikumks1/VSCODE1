@@ -10,3 +10,4 @@ chromadb
 langchain-groq
 python-dotenv
 streamlit
+onnxruntime>1.16.0
