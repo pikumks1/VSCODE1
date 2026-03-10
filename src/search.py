@@ -1,15 +1,3 @@
-##code to run streamlit from github repo
-import sys
-import subprocess
-
-# Force an install check for debugging
-try:
-    import langchain_groq
-except ImportError:
-    print("langchain_groq not found! Attempting runtime install...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "langchain-groq"])
-    import langchain_groq
-
 import os
 from dotenv import load_dotenv
 from src.vectorstore import FaissVectorStore
