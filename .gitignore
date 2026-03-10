@@ -17,6 +17,9 @@ wheels/
 venv/
 env/
 .env
+.venv_broken3
+.venv_Broken_2
+.venv_Broken_py3.14
 
 # VS Code settings
 .vscode/
