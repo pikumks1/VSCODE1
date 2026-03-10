@@ -38,7 +38,7 @@ class RAGSearch:
             return "No relevant information found in the retrieved chunks."
         
         # Generate a summary using the Groq LLM
-        prompt = f"Summarize the following information:\n\n{context}"
+        prompt = f"Answer in one or two paragraphs:\n\n{context}"
         response = self.llm.invoke([prompt])
         return response.content
     
