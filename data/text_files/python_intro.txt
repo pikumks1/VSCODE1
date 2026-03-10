@@ -1,0 +1,1 @@
+This is the content of sample1.txt. It contains some example text for testing.

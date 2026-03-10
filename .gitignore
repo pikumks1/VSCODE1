@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+wheels/
+
+# Virtual environments
+.venv
+
+
+###### Python ignores
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+.env
+
+# VS Code settings
+.vscode/
+
+# Build/Dist
+dist/
+build/
+*.egg-info/
