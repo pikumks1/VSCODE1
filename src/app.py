@@ -1,4 +1,10 @@
 
+import sys
+import os
+
+# Add the current directory to the system path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from src.data_loader import load_all_documents
 #from src.embedding import EmbeddingPipeline
 from src.vectorstore import FaissVectorStore
